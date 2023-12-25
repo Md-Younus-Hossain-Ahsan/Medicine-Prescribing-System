@@ -12,6 +12,7 @@ import java.text.*;
 import java.util.Date;
 import java.util.logging.*;
 import javax.swing.Timer;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -307,45 +308,42 @@ public class SignIN extends javax.swing.JFrame {
 
     private void Sign_INActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sign_INActionPerformed
         
-//        DoctorInfo doctor_Profile = new DoctorInfo();
-//        
-//        try {
-//            doctor_Profile.search();
-//        } catch (ClassNotFoundException ex) {
-//            Logger.getLogger(SignIN.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//        
-//        
-//        if(User_Name.getText().equals("User Name") && Password.getText().equals("Password"))
-//        {
-//            JOptionPane.showMessageDialog(null, "Enter the username and password !!!");
-//        }
-//        else if(User_Name.getText().trim().equals("") && Password.getText().trim().equals(""))
-//        {
-//            JOptionPane.showMessageDialog(null, "Enter the username and password !!!");
-//        }        
-//        else if(User_Name.getText().trim().equals(""))
-//        {
-//            JOptionPane.showMessageDialog(null, "Enter the username !!!");
-//        }
-//        else if(Password.getText().trim().equals(""))
-//        {
-//            Sign_IN.setEnabled(true);
-//            JOptionPane.showMessageDialog(null, "Enter the password !!!");
-//        }
-//        else if(User_Name.getText().equals(doctor_Profile.getUsername()) && Password.getText().equals(doctor_Profile.getPassword()))
-//        {
-//            JOptionPane.showMessageDialog(null, "Successfully done !!!");
-//            new Menu().setVisible(true);
-//            this.setVisible(false);
-//        }
-//        else
-//        {
-//            JOptionPane.showMessageDialog(null, "Not matched !!!");        
-//        }        
+        DoctorInfo doctor_Profile = new DoctorInfo();
         
-        new Menu().setVisible(true);
-        this.setVisible(false);
+        try {
+            doctor_Profile.search();
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(SignIN.class.getName()).log(Level.SEVERE, null, ex);
+        }
+                
+        if(User_Name.getText().equals("User Name") && Password.getText().equals("Password"))
+        {
+            JOptionPane.showMessageDialog(null, "Enter the username and password !!!");
+        }
+        else if(User_Name.getText().trim().equals("") && Password.getText().trim().equals(""))
+        {
+            JOptionPane.showMessageDialog(null, "Enter the username and password !!!");
+        }        
+        else if(User_Name.getText().trim().equals(""))
+        {
+            JOptionPane.showMessageDialog(null, "Enter the username !!!");
+        }
+        else if(Password.getText().trim().equals(""))
+        {
+            Sign_IN.setEnabled(true);
+            JOptionPane.showMessageDialog(null, "Enter the password !!!");
+        }
+        else if(User_Name.getText().equals(doctor_Profile.getUsername()) && Password.getText().equals(doctor_Profile.getPassword()))
+        {
+            JOptionPane.showMessageDialog(null, "Successfully done !!!");
+            new Menu().setVisible(true);
+            this.setVisible(false);
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, "Not matched !!!");        
+        }        
+        
     }//GEN-LAST:event_Sign_INActionPerformed
 
     private void ForgotMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ForgotMouseMoved
