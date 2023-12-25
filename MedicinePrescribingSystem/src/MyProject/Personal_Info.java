@@ -46,12 +46,12 @@ public final class Personal_Info extends javax.swing.JFrame {
             PreparedStatement pst = con.prepareStatement(sql); 
             ResultSet res = pst.executeQuery();
             while (res.next()) {
-                
                 byte[] image = res.getBytes("profile_pic");
-                format = new ImageIcon(image);
-                Profile_Pic.setIcon(format);
-                
-            } 
+                if (image != null) {
+                    format = new ImageIcon(image);
+                    Profile_Pic.setIcon(format);
+                }
+            }            
         } catch (SQLException e) {
         }
     }
