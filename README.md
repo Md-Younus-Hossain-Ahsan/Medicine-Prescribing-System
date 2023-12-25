@@ -16,12 +16,4 @@ The Medicine Prescribing System is a Java-based application that facilitates doc
 
 - **Patient Details:** Store and retrieve comprehensive patient details, making it convenient for doctors to access relevant information.
 
-- **Prescription History:** Track and review the prescription history of patients to make informed decisions during consultations.
-
-- **Database Integration:** Utilizes MySQL for secure and efficient storage of data, ensuring reliability and data integrity.
-
-- **Customizable Configuration:** Easily configure the application settings, including database connection details, through the `config/` directory.
-
-- **Video Demo:** A detailed video demo is available for users to quickly understand the functionality and usage of the system.
-
-- **Open Source Contribution:** We welcome contributions from the community. Follow our [contribution guidelines](CONTRIBUTING.md) to get involved.
+- **Prescription History:** Track and review the prescription history of patients to make informed decisions during consultations.Track and review the prescription history of patients to make informed decisions during consultations. If a patient forgets their previous prescription, our system allows the doctor to quickly find and review it, ensuring a smooth and informed medical consultation.
