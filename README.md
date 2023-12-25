@@ -4,7 +4,7 @@
 The Medicine Prescribing System is a Java-based application that facilitates doctors in prescribing and managing medications for patients. It provides a user-friendly interface for doctors to store commonly prescribed medicines and tests, along with patient details and their prescription history.
 
 ## Overview
-Please watch this video: 
+Please watch this video: https://drive.google.com/file/d/1Xsr3drnnFZACExFfkL-gwTJWxKfVJSZZ/view?usp=sharing 
 
 ## System Requirements
 
