@@ -14,6 +14,8 @@ CREATE TABLE Doctor_Info (
 	profile_pic BLOB
 ) AUTO_INCREMENT = 1001;
 
+INSERT INTO Doctor_Info (username, name, password, email, gender, mobile_number, qualifications, profile_pic)
+VALUES ('user', 'Mr. Someone', '12345', 'doctor@example.com', 'Male', '1234567890', 'MBBS, MD', NULL);
 
 
 CREATE TABLE Medicine (
