@@ -1,7 +1,6 @@
 create database medicine_prescribing_system
 
-
-
+	
 CREATE TABLE Doctor_Info (
     doc_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
@@ -16,6 +15,7 @@ CREATE TABLE Doctor_Info (
 
 INSERT INTO Doctor_Info (username, name, password, email, gender, mobile_number, qualifications, profile_pic)
 VALUES ('user', 'Mr. Someone', '12345', 'doctor@example.com', 'Male', '1234567890', 'MBBS, MD', NULL);
+
 
 
 CREATE TABLE Medicine (
