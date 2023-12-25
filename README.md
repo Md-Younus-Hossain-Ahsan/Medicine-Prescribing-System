@@ -21,3 +21,5 @@ Please watch this video: https://drive.google.com/file/d/1Xsr3drnnFZACExFfkL-gwT
 - **Patient Details:** Store and retrieve comprehensive patient details, making it convenient for doctors to access relevant information.
 
 - **Prescription History:** Track and review the prescription history of patients to make informed decisions during consultations. If a patient forgets their previous prescription, our system allows the doctor to quickly find and review it, ensuring a smooth and informed medical consultation.
+
+- **Searching Suggestions:** During prescription creation, our system offers smart searching suggestions by retrieving medicine, test, finding problems, and advice lists from the database, streamlining the process for doctors.
