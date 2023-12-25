@@ -6,6 +6,12 @@ The Medicine Prescribing System is a Java-based application that facilitates doc
 ## Overview
 Please watch this video: https://drive.google.com/file/d/1Xsr3drnnFZACExFfkL-gwTJWxKfVJSZZ/view?usp=sharing 
 
+## Motivation Behind the Project
+
+- **Doctors' sloppy handwriting:** Sloppy handwriting by doctors poses serious risks, leading to potential harm or even death for patients. Clear and legible documentation is crucial for ensuring patient safety in healthcare.
+- **Framework:** Java Swing
+- **Database:** MySQL
+
 ## System Requirements
 
 - **Programming Language:** Java
