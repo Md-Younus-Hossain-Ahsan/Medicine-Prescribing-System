@@ -11,6 +11,7 @@ Please watch this video: https://drive.google.com/file/d/1Xsr3drnnFZACExFfkL-gwT
 - **Doctors' sloppy handwriting:** Sloppy handwriting by doctors poses serious risks, leading to potential harm or even death for patients. Clear and legible documentation is crucial for ensuring patient safety in healthcare. [Reference Link](https://content.time.com/time/health/article/0,8599,1578074,00.html)
 - **Prescription Continuity Challenge:** Sometimes patients forget to bring the previous prescription at the time of their next appointment, which poses challenges in creating subsequent prescriptions.
 
+Introducing the "Medicine Prescribing System," designed to address the challenges posed by doctors' sloppy handwriting and the prescription continuity dilemma. This system streamlines the prescription process, ensuring accuracy, legibility, and seamless prescription management for enhanced patient safety.
 
 ## System Requirements
 
