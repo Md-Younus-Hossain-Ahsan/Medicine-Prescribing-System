@@ -8,7 +8,7 @@ Please watch this video: https://drive.google.com/file/d/1Xsr3drnnFZACExFfkL-gwT
 
 ## Motivation Behind the Project
 
-- **Doctors' sloppy handwriting:** Sloppy handwriting by doctors poses serious risks, leading to potential harm or even death for patients. Clear and legible documentation is crucial for ensuring patient safety in healthcare.
+- **Doctors' sloppy handwriting:** Sloppy handwriting by doctors poses serious risks, leading to potential harm or even death for patients. Clear and legible documentation is crucial for ensuring patient safety in healthcare. [Reference Link](https://content.time.com/time/health/article/0,8599,1578074,00.html)
 - **Framework:** Java Swing
 - **Database:** MySQL
 
