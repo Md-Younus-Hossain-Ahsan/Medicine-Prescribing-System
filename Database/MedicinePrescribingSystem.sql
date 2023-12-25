@@ -131,12 +131,3 @@ CREATE TABLE Prescribed_Tests (
     FOREIGN KEY (Pres_id) REFERENCES Prescription(Pres_id),
     FOREIGN KEY (Test_id) REFERENCES Test(Test_id)
 );
-
-
-
-
-Drop table Advices;
-Drop table Finding_Problems;
-Drop table Prescribed_Tests;
-Drop table Prescribed_Medicines;
-Drop table Prescription;
